@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #282a36;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+}
+
+header {
+  padding: 30px;
+  border-bottom: 1 solid #333;
+  background: #292a37;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 18px;
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 38px;
+  margin: 0 16px;
+}
+
+.links a:hover {
+  color: #8356e5;
+  transition: color 200ms;
+}
+
+#wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+#wrapper img {
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #8356e5;
+}
+
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper p {
+  max-width: 500px;
+  margin: 18px auto;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#wrapper li {
+  list-style-type: none;
+}
+
+#links-footer a {
+  border-bottom: 1px solid #8356e5;
+}
+
+/* === CADS === */
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: #8356e5;
+  display: grid;
+  cursor: pointer;
+}
+
+.card__image-container img {
+  width: 90%;
+}
+
+.card__content,
+.card__info {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.card__info {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 10px;
+}
+
+.card__price {
+  background-color: #8356e5;
+  filter: brightness(80%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card__instructor {
+  padding: 5px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+}
+
+/* === NOT-FOUND === */
+
+.not-found {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
